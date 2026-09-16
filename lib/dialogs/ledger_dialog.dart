@@ -92,7 +92,7 @@ class _EditorState extends State<_Editor> {
           ),
           const SizedBox(height: 16),
           DropdownButtonFormField<String>(
-            value: type,
+            initialValue: type,
             isExpanded: true,
             decoration: const InputDecoration(
               labelText: 'نوع الحركة',

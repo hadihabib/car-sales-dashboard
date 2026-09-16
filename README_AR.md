@@ -122,3 +122,10 @@ Supabase > SQL Editor > New query
 الإعدادات > تغيير الاتصال
 
 ويمكنك أيضاً مسح الإعدادات من الجهاز وإدخالها من جديد.
+
+## ملاحظة GitHub Actions
+
+تمت إضافة اختبار صحيح داخل `test/widget_test.dart` لتجنب خطأ:
+`The name 'MyApp' isn't a class`
+
+كما تم تحديث Workflow حتى لا تعتبر معلومات deprecation أخطاء قاتلة.

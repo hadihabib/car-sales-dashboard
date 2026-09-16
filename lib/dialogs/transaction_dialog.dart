@@ -144,7 +144,7 @@ class _EditorState extends State<_Editor> {
             ),
             const SizedBox(height: 12),
             DropdownButtonFormField<String>(
-              value: type,
+              initialValue: type,
               decoration: dec('نوع العملية'),
               items: const [
                 DropdownMenuItem(value: 'sale', child: Text('بيع')),
@@ -188,7 +188,7 @@ class _EditorState extends State<_Editor> {
             field('notes', 'ملاحظات', maxLines: 3),
             field('original_text', 'النص الأصلي', maxLines: 3),
             DropdownButtonFormField<String>(
-              value: status,
+              initialValue: status,
               decoration: dec('الحالة'),
               items: const [
                 DropdownMenuItem(value: 'confirmed', child: Text('مؤكدة')),
