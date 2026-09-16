@@ -2,9 +2,13 @@
 .packages
 .pub/
 build/
-android/.gradle/
-android/local.properties
 .idea/
 .vscode/
 *.iml
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+android/.gradle/
+android/local.properties
+ios/Pods/
 .DS_Store
