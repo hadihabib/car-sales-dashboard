@@ -1,9 +1,9 @@
 class AppConfig {
   static const String supabaseUrl =
-      String.fromEnvironment('SUPABASE_URL');
+      'https://lrophfpjnsuutvqwkabx.supabase.co';
 
   static const String supabaseAnonKey =
-      String.fromEnvironment('SUPABASE_ANON_KEY');
+      'sb_secret_2L_tGTLh1bv_ABkVibR4iQ_J1Tgjz4F';
 
   static bool get isConfigured =>
       supabaseUrl.startsWith('https://') &&
